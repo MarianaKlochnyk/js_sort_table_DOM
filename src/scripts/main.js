@@ -1,6 +1,6 @@
 'use strict';
 
-const header = document.querySelector('th');
+const header = document.querySelectorAll('th');
 const tbody = document.querySelector('tbody');
 
 header.addEventListener('click', () => {
